@@ -117,40 +117,40 @@ header {
       img {
         object-fit: cover;
       }
-    }
-  }
-}
-.card {
-  background-color: #181719;
-  width: 385px;
-  height: 200px;
-  position: absolute;
-  bottom: 14.5%;
-  right: 20%;
-  transform: (-50%, 0);
-  padding: 1rem 0rem;
-  .row {
-    width: 60%;
-    .designer-img {
-      width: 50px;
-      height: 50px;
-      margin-right: 20px;
-      border-radius: 50%;
-    }
-    .designer-info {
-      h4 {
-        font-size: 14px;
-        margin-bottom: 0.4rem;
+      .card {
+        background-color: #181719;
+        width: 385px;
+        height: 200px;
+        position: absolute;
+        bottom: -1px;
+        right: 20%;
+        transform: (-50%, 0);
+        padding: 1rem 0rem;
+        .row {
+          width: 60%;
+          .designer-img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+            border-radius: 50%;
+          }
+          .designer-info {
+            h4 {
+              font-size: 14px;
+              margin-bottom: 0.4rem;
+            }
+            h5 {
+              font-size: 12px;
+              opacity: 0.8;
+            }
+          }
+        }
+        .designer-heading {
+          width: 70%;
+          margin: 1rem 2rem;
+        }
       }
-      h5 {
-        font-size: 12px;
-        opacity: 0.8;
-      }
     }
-  }
-  .designer-heading {
-    width: 70%;
-    margin: 1rem 2rem;
   }
 }
 

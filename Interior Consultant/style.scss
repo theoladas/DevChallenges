@@ -30,11 +30,17 @@ img {
   font-size: 48px;
   font-weight: 500;
   color: #fff;
+  margin: 1rem;
 }
 .sub-title {
   font-family: "Lora", serif;
   font-size: 24px;
   font-weight: 700;
+  color: #fff;
+}
+.card-title {
+  font-family: "Lora", serif;
+  font-size: 24px;
   color: #fff;
 }
 .container {
@@ -45,9 +51,11 @@ img {
 .row {
   display: flex;
 }
+
 // NAV
 header {
   padding: 1rem;
+  min-height: 20vh;
   nav {
     display: flex;
     justify-content: space-between;
@@ -74,5 +82,57 @@ header {
   transition: all 0.4s ease;
   &:hover {
     opacity: 1;
+  }
+}
+
+// HERO section
+.hero {
+  min-height: 90vh;
+  .row {
+    align-items: center;
+    justify-content: center;
+    .info {
+      width: 50%;
+      p {
+        width: 60%;
+        margin: 1rem;
+        font-size: 24px;
+        opacity: 0.8;
+      }
+      span {
+        margin: 1rem;
+        font-size: 18px;
+        opacity: 1;
+      }
+    }
+    .image {
+      width: 50%;
+    }
+  }
+}
+
+.card {
+  width: 200px;
+  margin: 0 auto;
+  .row {
+    img {
+      width: 50px;
+      border-radius: 50%;
+      margin-right: 0.5rem;
+      align-self: flex-start;
+    }
+    h5 {
+      opacity: 0.8;
+      font-size: 14px;
+      line-height: 30px;
+    }
+    p {
+      font-size: 12px;
+      opacity: 0.8;
+    }
+  }
+  h3 {
+    width: 240px;
+    margin-right: 2rem;
   }
 }

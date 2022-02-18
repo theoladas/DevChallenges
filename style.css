@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #181719;
+  color: #fff;
+}
+
+a,
+li {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+a:hover,
+li:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-family: "Lora", serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #fff;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sub-title {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.card-title {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  padding: 1rem;
+  min-height: 20vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav .nav-links li {
+  margin-right: 40px;
+}
+
+#logo {
+  border: 1px solid #fff;
+  color: #fff;
+  background: none;
+  font-family: "Crimson Pro", serif;
+  font-size: 0.75rem;
+  margin-left: 40px;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 10px 15px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#logo:hover {
+  opacity: 1;
+}
+
+.hero {
+  min-height: 75vh;
+}
+
+.hero .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .row .info {
+  width: 50%;
+}
+
+.hero .row .info p {
+  width: 60%;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.hero .row .info span {
+  margin: 1rem;
+  font-size: 18px;
+  opacity: 1;
+}
+
+.hero .row .info span .fa-solid {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.hero .row .image {
+  width: 50%;
+  position: relative;
+}
+
+.hero .row .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card {
+  background-color: #181719;
+  width: 385px;
+  height: 200px;
+  position: absolute;
+  bottom: 14.5%;
+  right: 20%;
+  -webkit-transform: -50%, 0;
+          transform: -50%, 0;
+  padding: 1rem 0rem;
+}
+
+.card .row {
+  width: 60%;
+}
+
+.card .row .designer-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.card .row .designer-info h4 {
+  font-size: 14px;
+  margin-bottom: 0.4rem;
+}
+
+.card .row .designer-info h5 {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.card .designer-heading {
+  width: 70%;
+  margin: 1rem 2rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 5vh;
+  font-size: 14px;
+  opacity: 0.8;
+}
+/*# sourceMappingURL=style.css.map */

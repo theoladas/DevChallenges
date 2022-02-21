@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://theoladas.github.io/DevChallenges/">
+    <a href="https://theoladas.github.io/Interior-Consultant-DevChallenge/">
       Solution
     </a>
     <span> | </span>

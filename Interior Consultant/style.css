@@ -5,7 +5,7 @@
 }
 
 html {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 body {
@@ -75,10 +75,10 @@ img {
 }
 
 header {
-  padding: 1rem;
-  min-height: 20vh;
+  min-height: 10vh;
 }
 header nav {
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -122,7 +122,8 @@ header .burger div {
 }
 
 .hero {
-  padding: 4em;
+  min-height: 80vh;
+  padding-bottom: 10rem;
 }
 .hero .row {
   align-items: center;
@@ -221,7 +222,7 @@ header .burger div {
 }
 
 footer {
-  min-height: 5vh;
+  min-height: 10vh;
 }
 footer .footer-text {
   display: flex;
@@ -240,7 +241,7 @@ footer .footer-text {
     position: absolute;
     right: 0px;
     height: 100vh;
-    top: 10vh;
+    top: 20vh;
     background-color: #181719;
     z-index: 1;
     display: flex;
@@ -288,7 +289,7 @@ nav .nav-links a {
     margin-bottom: 2rem;
   }
   .hero .row .image {
-    width: 100%;
+    width: 90%;
   }
   .hero .row .image img {
     max-width: 100%;
@@ -297,7 +298,7 @@ nav .nav-links a {
     box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.1);
     width: 385px;
     height: 150px;
-    bottom: -110px;
+    bottom: -90px;
     right: 145px;
   }
   .hero .row .image .card .row {
@@ -305,9 +306,5 @@ nav .nav-links a {
   }
   .hero .row .image .card .row .designer-img {
     margin-left: 10px;
-  }
-
-  footer {
-    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

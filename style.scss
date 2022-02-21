@@ -109,7 +109,7 @@ header {
 
 // HERO section
 .hero {
-  min-height: 70vh;
+  margin-bottom: 4rem;
   .row {
     align-items: center;
     justify-content: center;
@@ -158,7 +158,7 @@ header {
         bottom: -120px;
         right: 20px;
         transform: (-50%, 0);
-        padding: 1rem 0rem;
+        padding: 0.5rem 0rem;
         @media screen and (max-width: 1024px) {
           width: 300px;
         }
@@ -210,7 +210,7 @@ header {
 
 // FOOTER
 footer {
-  padding: 2rem;
+  padding: 1.5rem;
   .footer-text {
     display: flex;
     align-items: center;

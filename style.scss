@@ -59,6 +59,10 @@ img {
   display: flex;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 // NAV
 header {
   min-height: 20vh;
@@ -220,7 +224,7 @@ footer {
 }
 
 // MOBILE
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   body {
     overflow-x: hidden;
   }

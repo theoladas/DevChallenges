@@ -75,7 +75,7 @@ img {
 }
 
 header {
-  min-height: 10vh;
+  min-height: 20vh;
 }
 header nav {
   padding: 1rem;
@@ -96,7 +96,7 @@ header nav #logo {
   background: none;
   font-family: "Crimson Pro", serif;
   font-size: 0.75rem;
-  margin-left: 40px;
+  margin-left: 15px;
   opacity: 0.8;
   cursor: pointer;
   padding: 10px 15px;
@@ -114,7 +114,7 @@ header .burger:hover {
   opacity: 1;
 }
 header .burger div {
-  width: 25px;
+  width: 30px;
   height: 3px;
   background-color: #fff;
   margin: 5px;
@@ -123,7 +123,6 @@ header .burger div {
 
 .hero {
   min-height: 80vh;
-  padding-bottom: 10rem;
 }
 .hero .row {
   align-items: center;
@@ -222,7 +221,7 @@ header .burger div {
 }
 
 footer {
-  min-height: 10vh;
+  padding-top: 8rem;
 }
 footer .footer-text {
   display: flex;
@@ -237,11 +236,15 @@ footer .footer-text {
     overflow-x: hidden;
   }
 
+  header {
+    min-height: 5vh;
+  }
+
   nav .nav-links {
     position: absolute;
     right: 0px;
     height: 100vh;
-    top: 20vh;
+    top: 5vh;
     background-color: #181719;
     z-index: 1;
     display: flex;
@@ -281,6 +284,9 @@ nav .nav-links a {
     display: none;
   }
 
+  .hero {
+    width: 100%;
+  }
   .hero .row {
     flex-direction: column;
   }
@@ -288,17 +294,21 @@ nav .nav-links a {
     width: 100%;
     margin-bottom: 2rem;
   }
+  .hero .row .info p {
+    width: 70%;
+  }
   .hero .row .image {
-    width: 90%;
+    width: 100%;
   }
   .hero .row .image img {
     max-width: 100%;
+    height: 450px;
   }
   .hero .row .image .card {
     box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.1);
     width: 385px;
-    height: 150px;
-    bottom: -90px;
+    height: 140px;
+    bottom: -60px;
     right: 145px;
   }
   .hero .row .image .card .row {

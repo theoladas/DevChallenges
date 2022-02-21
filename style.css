@@ -182,7 +182,6 @@ header .burger div {
   position: absolute;
   bottom: -120px;
   right: 20px;
-  transform: -50%, 0;
   padding: 0.5rem 0rem;
 }
 @media screen and (max-width: 1024px) {

@@ -4,7 +4,7 @@ const navSlide = () => {
   const logo = document.querySelector("#logo");
 
   burger.addEventListener("click", () => {
-    nav.classList.toggle("navActive");
+    nav.classList.toggle("active");
     logo.classList.toggle("remove-logo");
     burger.classList.toggle("toggle");
     burger.style.marginLeft = "auto";

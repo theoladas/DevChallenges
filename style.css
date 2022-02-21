@@ -291,7 +291,7 @@ nav .nav-links a {
   nav .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
   }
-  nav .navActive {
+  nav .active {
     transform: translateX(0%);
     display: flex;
     align-items: center;

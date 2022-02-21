@@ -109,7 +109,7 @@ header {
 
 // HERO section
 .hero {
-  min-height: 80vh;
+  min-height: 70vh;
   .row {
     align-items: center;
     justify-content: center;
@@ -162,6 +162,18 @@ header {
         @media screen and (max-width: 1024px) {
           width: 300px;
         }
+        @media screen and (max-width: 590px) {
+          bottom: -80px;
+          left: 50px;
+        }
+        @media screen and (max-width: 490px) {
+          bottom: -80px;
+          left: 30px;
+        }
+        @media screen and (max-width: 440px) {
+          width: 300px;
+        }
+
         .row {
           width: 60%;
           .designer-img {
@@ -198,7 +210,7 @@ header {
 
 // FOOTER
 footer {
-  padding-top: 8rem;
+  padding: 2rem;
   .footer-text {
     display: flex;
     align-items: center;
@@ -263,6 +275,7 @@ footer {
   }
   .hero {
     width: 100%;
+    padding-bottom: 5rem;
     .row {
       flex-direction: column;
       .info {
@@ -276,7 +289,6 @@ footer {
         width: 100%;
         img {
           max-width: 100%;
-          height: 450px;
         }
         .card {
           box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.1);
